@@ -1,17 +1,17 @@
 <html>
 <head>
-    <title>Quick Assesment (with github and D&D fun)</title>>
+    <title>Quick Assesment (with github and D&D fun)</title>
 </head>
 </html>
 <body>
-<h1>This is a charactr sheet for D&D</h1>
+<h1>This is a character sheet for D&D</h1>
 <hr>
-<u>Character name: <input type="text" id="txtCharName"></input></u><br><br>
-Sex: 
+<b>Character name: <input type="text" id="txtCharName"></input></b>&nbsp;&nbsp;
+<b>Sex:</b> 
 <input type="radio" name="rdSex"id="rdMale">Male
 <input type="radio" name="rdSex"id="rdFemale">Female
 <input type="radio" name="rdSex"id="rdUnknown">Prefer not to Say<br>
-Class: 
+<b>Class:</b> 
 <select>
 <option>Fighter</option>
 <option>Thief</option>
@@ -23,9 +23,9 @@ Class:
 <option>Monk</option>
 <option>Paladin</option>
 <option>Bard</option>
-</select> &nbsp;&nbsp;&nbsp;&nbsp;
+</select>&nbsp;&nbsp;
 
-Background: 
+<b>Background:</b> 
 <select>
 <option>Urchin</option>
 <option>Noble</option>
@@ -37,17 +37,26 @@ Background:
 <option>Hermit</option>
 <option>Pirate</option>
 <option>Sage</option>
-</select><br><br>
+</select>&nbsp;&nbsp;
 
-Character Bio: <textarea id="taBio" rows=15 cols=80></textarea><br><br>
+<b>Race:</b>
+<select>
+<option>Human</option>
+<option>Elf</option>
+<option>Dwarf</option>
+<option>Halfling</option>
+<option>Half Elf</option>
+<option>Gnome</option>
+</select><hr><br>
 
-Strength: <input type="number" min=3 max=30></input><br>
-Dexterity: <input type="number" min=3 max=30></input><br>
-Constitution <input type="number" min=3 max=30></input><br>
-Inteligence: <input type="number" min=3 max=30></input><br>
-Wisdom: <input type="number" min=3 max=30></input><br>
-Charisma: <input type="number" min=3 max=30></input><br>
-<br><br><br>
+<b>Character Bio:</b> <textarea id="taBio" rows=15 cols=60></textarea><br><br>
+
+Strength: <input type="number" value=12 min=3 max=30></input><br>
+Dexterity: <input type="number" value=12 min=3 max=30></input><br>
+Constitution <input type="number" value=12 min=3 max=30></input><br>
+Inteligence: <input type="number" value=12 min=3 max=30></input><br>
+Wisdom: <input type="number" value=12 min=3 max=30></input><br>
+Charisma: <input type="number" value=12 min=3 max=30></input><br><br>
 Skills:<BR>
 <input type="checkbox" id=chkAcrobatics">Acrobatics<BR>
 <input type="checkbox" id=chkAnimal_Handling">Animal Handling<BR>
