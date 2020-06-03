@@ -1,0 +1,12 @@
+10 tags available in HTML
+
+1)   <h1> to <h6>
+2)   <marquee>
+3)   &lt
+4)   <br>
+5)   <hr>
+6)   &nbsp
+7)   <input type="radio">
+8)   &gt
+9)   <b>
+10)  <u>
