@@ -1,0 +1,7 @@
+input type = date
+input type = email
+input type = range
+progress bar tag
+required attribute
+pattern validation
+input type = month
